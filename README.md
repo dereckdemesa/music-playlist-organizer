@@ -15,7 +15,7 @@ The **Music Playlist Organizer** is a web application that allows users to creat
 
 - Backend: Django
 - Database: PostgreSQL
-- Frontend: HTML, CSS, JavaScript
+- Frontend: Python
 - Deployment: 
 
 ## Getting Started
