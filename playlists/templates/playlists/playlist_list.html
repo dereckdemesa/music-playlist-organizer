@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Music Playlist Organizer</title>
+</head>
+<body>
+    <h1>Welcome to Music Playlist Organizer</h1>
+    <ul>
+        {% for playlist in playlists %}
+            <li>{{ playlist.name }}</li> <!-- Assuming 'name' is an attribute of your Playlist model -->
+        {% endfor %}
+    </ul>
+    <p><a href="/playlists/">View Playlists</a></p>
+</body>
+</html>
+
